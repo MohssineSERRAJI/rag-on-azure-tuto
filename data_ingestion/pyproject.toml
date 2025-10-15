@@ -1,0 +1,14 @@
+[project]
+name = "data-ingestion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastparquet>=2024.11.0",
+    "huggingface-hub>=0.35.3",
+    "pandas>=2.3.3",
+    "pydantic>=2.12.2",
+    "pydantic-settings>=2.11.0",
+    "pymongo>=4.15.3",
+]
